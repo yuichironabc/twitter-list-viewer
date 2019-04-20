@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TwitterListViewer.ListContentsPage">
+    <ListView x:Name="TweetsView" SeparatorColor="Teal" SeparatorVisibility="Default" HasUnevenRows="True">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout>
+                        <Label x:Name="AccountName" Text="{Binding User.Name}"></Label>
+                        <Label x:Name="Tweet" Text="{Binding FullText}"></Label>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
