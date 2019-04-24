@@ -3,11 +3,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+<<<<<<< HEAD
 # 追加
 Secret.cs
 
 # User-specific files
 *.rsuser
+=======
+# User-specific files
+>>>>>>> 2da716c1adc71e2df0cbf6847c6fc41b68a672e2
 *.suo
 *.user
 *.userosscache
@@ -23,8 +27,11 @@ Secret.cs
 [Rr]eleases/
 x64/
 x86/
+<<<<<<< HEAD
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
+=======
+>>>>>>> 2da716c1adc71e2df0cbf6847c6fc41b68a672e2
 bld/
 [Bb]in/
 [Oo]bj/
@@ -58,6 +65,10 @@ BenchmarkDotNet.Artifacts/
 project.lock.json
 project.fragment.lock.json
 artifacts/
+<<<<<<< HEAD
+=======
+**/Properties/launchSettings.json
+>>>>>>> 2da716c1adc71e2df0cbf6847c6fc41b68a672e2
 
 # StyleCop
 StyleCopReport.xml
@@ -65,7 +76,11 @@ StyleCopReport.xml
 # Files built by Visual Studio
 *_i.c
 *_p.c
+<<<<<<< HEAD
 *_h.h
+=======
+*_i.h
+>>>>>>> 2da716c1adc71e2df0cbf6847c6fc41b68a672e2
 *.ilk
 *.meta
 *.obj
@@ -82,7 +97,10 @@ StyleCopReport.xml
 *.tlh
 *.tmp
 *.tmp_proj
+<<<<<<< HEAD
 *_wpftmp.csproj
+=======
+>>>>>>> 2da716c1adc71e2df0cbf6847c6fc41b68a672e2
 *.log
 *.vspscc
 *.vssscc
@@ -214,7 +232,11 @@ _pkginfo.txt
 # files ending in .cache can be ignored
 *.[Cc]ache
 # but keep track of directories ending in .cache
+<<<<<<< HEAD
 !?*.[Cc]ache/
+=======
+!*.[Cc]ache/
+>>>>>>> 2da716c1adc71e2df0cbf6847c6fc41b68a672e2
 
 # Others
 ClientBin/
@@ -227,7 +249,11 @@ ClientBin/
 *.publishsettings
 orleans.codegen.cs
 
+<<<<<<< HEAD
 # Including strong name files can present a security risk
+=======
+# Including strong name files can present a security risk 
+>>>>>>> 2da716c1adc71e2df0cbf6847c6fc41b68a672e2
 # (https://github.com/github/gitignore/pull/2483#issue-259490424)
 #*.snk
 
@@ -258,7 +284,10 @@ ServiceFabricBackup/
 *.bim.layout
 *.bim_*.settings
 *.rptproj.rsuser
+<<<<<<< HEAD
 *- Backup*.rdl
+=======
+>>>>>>> 2da716c1adc71e2df0cbf6847c6fc41b68a672e2
 
 # Microsoft Fakes
 FakesAssemblies/
@@ -298,8 +327,13 @@ paket-files/
 .idea/
 *.sln.iml
 
+<<<<<<< HEAD
 # CodeRush personal settings
 .cr/personal
+=======
+# CodeRush
+.cr/
+>>>>>>> 2da716c1adc71e2df0cbf6847c6fc41b68a672e2
 
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
@@ -324,7 +358,11 @@ __pycache__/
 # OpenCover UI analysis results
 OpenCover/
 
+<<<<<<< HEAD
 # Azure Stream Analytics local run output
+=======
+# Azure Stream Analytics local run output 
+>>>>>>> 2da716c1adc71e2df0cbf6847c6fc41b68a672e2
 ASALocalRun/
 
 # MSBuild Binary and Structured Log
@@ -333,6 +371,7 @@ ASALocalRun/
 # NVidia Nsight GPU debugger configuration file
 *.nvuser
 
+<<<<<<< HEAD
 # MFractors (Xamarin productivity tool) working folder
 .mfractor/
 
@@ -341,3 +380,7 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+=======
+# MFractors (Xamarin productivity tool) working folder 
+.mfractor/
+>>>>>>> 2da716c1adc71e2df0cbf6847c6fc41b68a672e2
